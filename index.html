@@ -22,9 +22,9 @@
         <section class="gallery">
             <h2>Algunas de nuestras fotos 🌟</h2>
             <div class="photos">
-                <img src="IMG-20240929-WA0015.jpg" alt="Nosotros en la playa">
-                <img src="IMG-20240914-WA0035.jpg" alt="Un lindo paseo">
-                <img src="Imagen de WhatsApp 2024-11-21 a las 17.20.01_85d25738.jpg" alt="Nuestro primer selfie">
+                <img src="IMG-20240929-WA0015.jpg" alt="Nosotros en la playa" class="photo">
+                <img src="IMG-20240914-WA0035.jpg" alt="Un lindo paseo" class="photo">
+                <img src="Imagen de WhatsApp 2024-11-21 a las 17.20.01_85d25738.jpg" alt="Nuestro primer selfie" class="photo">
             </div>
         </section>
         <section class="button-container">
@@ -35,26 +35,36 @@
         <p>Con todo mi amor, Rocío</p>
     </footer>
 
+    <!-- Modal para la carta -->
     <div id="modal-note" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>💌 Mi Nota para Ti 💌</h2>
             <p>
-                Aquí estoy escribiendote esto mientras escucho a Cano pensando en como será el concierto contigo al lado sabiendo que cada letra de 
-                sus canciones representa perfectamente lo que siento por ti, en geenral que te quiero mucho y espero que con esta tontería lo veas un poco. 
-                La verdad que en el audio del otro día más o menos ya te dije mucho, no todo porque podría pasarme toda la vida diciendote lo mucho que te 
-                quiero, pero con esta "carta" quería recordartelo un poco otra vez.
+                Aquí estoy escribiéndote esto mientras escucho a Cano pensando en cómo será el concierto contigo al lado sabiendo que cada letra de 
+                sus canciones representa perfectamente lo que siento por ti, en general que te quiero mucho y espero que con esta tontería lo veas un poco. 
+                La verdad que en el audio del otro día más o menos ya te dije mucho, no todo porque podría pasarme toda la vida diciéndote lo mucho que te 
+                quiero, pero con esta "carta" quería recordártelo un poco otra vez.
             </p>
             <p>   
-                Tu me dijiste que gracias en la carta, pues ahora soy yo el que te da las gracias, gracias por demostrar al jorge de 16 años que el amor si
-                existe y que es bonito, que si que existe alguien que te cuide y me trate como nunca me habian tratado en la vida, solo tenía que ser paciente
-                y esperar 3 años para conocer al amor de su vida y que desde el momento que la conociera ya todo iria en auge y no iba a parar. 
+                Tú me dijiste que gracias en la carta, pues ahora soy yo el que te da las gracias, gracias por demostrar al Jorge de 16 años que el amor sí
+                existe y que es bonito, que sí que existe alguien que te cuide y me trate como nunca me habían tratado en la vida. Solo tenía que ser paciente
+                y esperar 3 años para conocer al amor de su vida y que desde el momento que la conociera ya todo iría en auge y no iba a parar. 
             </p>
             <p>
-                Gracias por hacerme ver que todo eso qyue yo siempre decía que nadie haría por mi lo que yo hago por ellos era falso, porque tu me das 3 veces
-                más de lo que yo te doy, sin yo pedirte nada recorres tierra y mar por mi, que tienes mil detalles conmigo, que cada semana me sorprendes con algo
+                Gracias por hacerme ver que todo eso que yo siempre decía, que nadie haría por mí lo que yo hago por ellos, era falso, porque tú me das 3 veces
+                más de lo que yo te doy. Sin yo pedirte nada recorres tierra y mar por mí, que tienes mil detalles conmigo, que cada semana me sorprendes con algo
                 ❤️
             </p>
+        </div>
+    </div>
+
+    <!-- Modal para las fotos -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Imagen ampliada">
+            <p id="modalText">Te quiero Rocío</p>
         </div>
     </div>
 

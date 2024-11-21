@@ -52,9 +52,9 @@ main {
 }
 
 .photos img {
-    width: 300px; 
+    width: 300px;
     height: 300px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -211,4 +211,65 @@ footer {
     .modal-content p {
         font-size: 0.9em;
     }
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    /* Oculta el modal por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 90%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#modalImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#modalText {
+    font-size: 1.5em;
+    color: #ff6f61;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close:hover {
+    color: #ff6f61;
+}
+
+/* Estilo para las imágenes en el modal */
+#photoModal img {
+    max-width: 90%;
+    /* Limita el ancho máximo al 90% del contenedor */
+    max-height: 80vh;
+    /* Limita la altura máxima al 80% de la ventana */
+    object-fit: contain;
+    /* Ajusta la imagen para que se mantenga proporcional */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
