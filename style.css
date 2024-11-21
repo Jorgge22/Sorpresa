@@ -52,16 +52,16 @@ main {
 }
 
 .photos img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .photos img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .button-container {
@@ -166,8 +166,8 @@ footer {
     }
 
     .photos img {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
     }
 
     button {
@@ -195,8 +195,8 @@ footer {
     }
 
     .photos img {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
     }
 
     button {
